@@ -1,0 +1,38 @@
+html {
+    background-image: url("maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+footer {
+    padding-top: 500px;
+    text-align: center;
+}
+.norm {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: aquamarine;
+    border: 10px ridge aquamarine;
+}
+.check1, .check2 {
+    background-color: gray;
+}
+th {
+    border: 5px outset;
+    border-color: aqua;
+    background-color: aqua;
+}
+td {
+    border: 5px outset;
+    border-color: aqua;
+    background-color: aqua;
+}
+.tt > .tabl > p {
+    color: rebeccapurple;
+} 
+.tabl {
+    border: 5px outset aliceblue;
+    background-color: aliceblue;
+    padding: 10px;
+}

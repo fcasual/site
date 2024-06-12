@@ -1,0 +1,259 @@
+@font-face {
+    font-family: 'Roboto', sans-serif !important;
+    src: url(../fonts/Roboto-Regular.ttf) !important;
+}
+.container1 {
+    max-width: 1220px;
+    height: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.container2 {
+    max-width: 1220px;
+    height: 100%;
+    margin: auto;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;   
+}
+.content {
+    padding-top: 72px; 
+}
+header {
+    position: fixed;
+    top: 0px; left: 0px; right: 0px;
+    height: 72px;
+    box-shadow: 0px 0px 16px 0px #26262629;
+    background-color: white;
+    z-index: 1;
+}
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header button {
+    border: 1px solid #E0E0E0; 
+    background-color: white; 
+    height: 40px; width: 78px;
+    border-radius: 4px;
+    transition: all 0.4s linear;
+}
+header button:hover {
+    background-color: lightgray;
+}
+.container1 form {
+    padding-top: 30px;
+}
+.container1 form input {
+    width: 100%;
+    border: none;
+    color: #626262;
+    font-size: 16px;
+    border-bottom: 1px solid #626262;
+}
+.card {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.card1 {
+    margin-bottom: 30px;
+}
+.card1>div {
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: all .2s linear;
+}
+.card1>div:hover {
+    background-color: whitesmoke;
+}
+.card1 a {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+.card1 h3 {
+    color: black; 
+    margin: 0;
+    padding-top: 15px;
+    text-align: start;
+}
+.card1 p {
+    color: black;
+    margin: 0;
+    padding-top: 10px;
+    text-align: start;
+}
+.trans {
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 8px;
+
+}
+.trans img {
+    width: 100%; 
+    transition: all .5s;
+    display: block;
+} 
+.card img:hover {
+   transform: scale(1.1);
+}
+.card a {
+    text-decoration: none;
+}
+.card h3 {
+    color: black; 
+    margin: 0;
+    padding-top: 15px;
+    text-align: start;
+}
+.card p {
+    color: black;
+    margin: 0;
+    padding-top: 10px;
+    text-align: start;
+}
+.card-cluster {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+footer {
+    background: #262626;
+    color: white;
+}
+footer select {
+    background-color: #3B3B3B; 
+    border: none;
+    padding: 10px 110px 10px 40px;
+    appearance: none;
+    background-image: url('world.svg'), url('if_icon-ios7-arrow-back_211686.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: left 12px center, right 10px center;
+}
+.social img{
+    padding-right: 5px;
+}
+.footer-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-info p {
+    color: white;
+}
+.footer-info a {
+    text-decoration: none;
+}
+.pers {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.pers a {
+    color: white;
+    text-decoration: none;
+}
+.pers p {
+    padding-top: 10px;
+}
+footer .col-md-4 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.pushkin-card {
+    background-color: white; 
+    border-radius: 8px; padding: 40px;
+    box-shadow: 0 0 15px lightgray;
+}
+.pushkin-card-bot {
+    display: flex; 
+    justify-content: space-between;
+}
+.hero {
+    background-image: url('d42ea9bbf7aff297c2e1eb5e5f3b7fa6-w1080-87.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.hero .container1 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.navig1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 1px solid #efefef;
+}
+.navig1 a {
+    padding-right: 40px;
+    text-decoration: none;
+    color: #626262;
+    transition: all .1s linear;
+}
+.navig1 a:hover {
+    color: #327430;
+}
+.navig2 {
+    display: none;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+.navig2 a {
+    text-decoration: none;
+    color: black;
+}
+.navig2 div {
+    padding-top: 5px;
+    border-bottom: 1px solid #efefef;
+    width: 50px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .bucket {
+        display: none;
+    }
+}
+@media screen and (max-width: 575px) {
+    .food-info {
+        display: none;
+    }
+    .navig1 {
+        display: none;
+    }
+    .navig2 {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero {
+        background-image: url('d42ea9bbf7aff297c2e1eb5e5f3b7fa6-w1080-87.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .pushkin-card {
+        position: relative;
+        top: 150px;
+    }
+    .pushkin-card h2 {
+        font-size: 24px !important;
+        text-align: center;
+    }
+    .pushkin-card-bot {
+        flex-direction: column;
+        align-items: center;
+    }
+}
