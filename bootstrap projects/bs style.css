@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(/fonts/Roboto-Regular.ttf);
+}
+.anim {
+    transition: all 0.2s ease-out !important;
+}
+.anim:hover {
+    background-color:#C2C5C7 !important;
+}
+.card {
+    transition: all 0.2s ease-out !important;
+}
+.card:hover {
+    border-radius: 16px !important;
+    background-color:#C2C5C7 !important;
+}
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-row div {
+    padding-left: 10px;
+    padding-right: 10px;
+}
